@@ -11,6 +11,8 @@ var options = {
   dotfiles: true,
   //Only add, and never remove existing files
   add: true,
+  remote: 'origin',
+  user: { name: "Wojciech Trocki", email: "wtrocki@redhat.com" },
   tag: 'release-' + module,
   // Commit message
   message: "Release " + module,
