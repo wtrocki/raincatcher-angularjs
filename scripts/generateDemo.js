@@ -12,6 +12,7 @@ var options = {
   //Only add, and never remove existing files
   add: true,
   remote: 'origin',
+  repo: 'git@github.com:feedhenry-templates/wfm-mobile.git',
   user: { name: "Wojciech Trocki", email: "wtrocki@redhat.com" },
   tag: 'release-' + module,
   // Commit message
